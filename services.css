@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.containers{
+    width: 100%;
+    height: 100vh;
+    padding: 0 8%;
+}
+.containers h1{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+}
+.containers h1::after{
+    content: ' ';
+    background: greenyellow;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.ridelimit{
+    width: 100px;
+    height: 100px;
+}
+.helmet{
+    width: 100px;
+    height: 100px;
+}
+.payment{
+    width: 100px;
+    height: 100px;
+}
+.row{
+    /* width: 185vh; */
+    /* padding-left: 0px; */
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service{
+    width: 100vh;
+    padding: 40px 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* flex-direction: row; */
+
+}
+.alltime{
+    width: 100px;
+    height: 100px;
+}
+.user{
+    width: 100px;
+    height: 100px;
+}
+.cashback{
+    width: 100px;
+    height: 100px;
+}
+.service2{
+    width: 100vh;
+    padding: 40px 20px 20px 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.row2{
+    /* width: 185vh; */
+    /* padding-left: 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 60px; */
+}
+.service h2{
+    color: greenyellow;
+}
+.service2 h2{
+    color: greenyellow;
+}
+.service:hover{
+    background: greenyellow;
+    transform: scale(1.05);
+}
+
+.service2:hover{
+    background: greenyellow;
+    transform: scale(1.05);
+}
+.service2:hover h2{
+    color: white;
+}
+.service:hover h2{
+    color: white;
+}
